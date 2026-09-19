@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="FlowTask helps modern teams organize their work and simplify their day.">
+	<title>FlowTask | Organize your work</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
+</head>
+<body>
+	<nav class="site-nav" aria-label="Primary navigation">
+		<div class="container nav-inner">
+			<a class="logo" href="#home" aria-label="FlowTask home"><span class="logo-mark" aria-hidden="true">✦</span>FlowTask</a>
+			<button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation menu">
+				<span></span><span></span><span></span>
+			</button>
+			<div class="nav-links" id="nav-links">
+				<a class="active" href="#home">Home</a>
+				<a href="#features">Features</a>
+				<a href="#pricing">Pricing</a>
+				<a href="#contact">Contact</a>
+			</div>
+			<a class="button button-small nav-cta" href="#signup">Get Started <span aria-hidden="true">↗</span></a>
+		</div>
+	</nav>
+
+	<main>
+		<header class="hero" id="home">
+			<div class="container hero-grid">
+				<div class="hero-copy">
+					<p class="eyebrow"><span class="eyebrow-dot"></span> Your calm productivity space</p>
+					<h1>Organize Your Work. <em>Simplify</em> Your Life.</h1>
+					<p class="hero-text">Bring your tasks, goals, and team into one clear space so you can focus on the work that matters most.</p>
+					<div class="hero-actions">
+						<a class="button" href="#signup">Start Free Trial <span aria-hidden="true">↗</span></a>
+						<a class="button button-outline" href="#demo"><span class="play-icon" aria-hidden="true">▶</span> Watch Demo</a>
+					</div>
+					<div class="hero-note"><span class="avatar-stack" aria-hidden="true"><i></i><i></i><i></i></span> Trusted by <strong>12,000+</strong> productive people</div>
+				</div>
+				<div class="hero-visual" id="demo" aria-label="FlowTask dashboard preview placeholder" role="img">
+					<div class="visual-glow"></div>
+					<div class="dashboard-window">
+						<div class="window-top"><span class="window-dots"><i></i><i></i><i></i></span><span class="window-label">My workspace</span><span class="window-menu">•••</span></div>
+						<div class="dashboard-body">
+							<aside class="mini-sidebar"><span class="mini-logo">✦</span><span class="mini-line active"></span><span class="mini-line"></span><span class="mini-line"></span><span class="mini-line"></span><span class="mini-avatar"></span></aside>
+							<div class="task-area">
+								<div class="task-heading"><div><small>MONDAY, OCTOBER 14</small><h2>Good morning, Alex <span aria-hidden="true">✦</span></h2></div><span class="add-task">+</span></div>
+								<div class="progress-row"><span>Weekly progress</span><strong>72%</strong><div class="progress-bar"><span></span></div></div>
+								<div class="task-list"><div class="task done"><b>✓</b><span>Review project brief</span><small>09:00</small></div><div class="task"><b></b><span>Design team check-in</span><small>11:30</small></div><div class="task"><b></b><span>Plan next week's goals</span><small>14:00</small></div></div>
+								<div class="insight-card"><span class="insight-icon">◒</span><div><strong>You're on a roll!</strong><small>4 tasks completed this week</small></div><span class="insight-arrow">↗</span></div>
+							</div>
+						</div>
+					</div>
+					<div class="floating-card floating-card-top"><span>✦</span><div><small>Focus time</small><strong>3h 24m</strong></div></div>
+					<div class="floating-card floating-card-bottom"><span class="check-badge">✓</span><div><small>Task completed</small><strong>Ship the new flow</strong></div></div>
+				</div>
+			</div>
+		</header>
+
+		<section class="features section-pad" id="features">
+			<div class="container">
+				<div class="section-heading"><div><p class="eyebrow">Less busywork, more progress</p><h2>Everything you need to<br><em>move forward.</em></h2></div><p>Thoughtful tools that make planning feel simple, focused, and a little more human.</p></div>
+				<div class="feature-grid">
+					<article class="feature-card"><div class="feature-icon icon-focus">◉</div><h3>Find your focus</h3><p>Turn a long list into a clear plan. See what matters now and leave the rest for later.</p><a href="#signup" aria-label="Learn more about focus tools">Learn more <span aria-hidden="true">↗</span></a></article>
+					<article class="feature-card"><div class="feature-icon icon-flow">⌁</div><h3>Keep work flowing</h3><p>Connect tasks, projects, and people in one place without the noise of endless meetings.</p><a href="#signup" aria-label="Learn more about workflow tools">Learn more <span aria-hidden="true">↗</span></a></article>
+					<article class="feature-card"><div class="feature-icon icon-calm">✧</div><h3>Make room for calm</h3><p>Build a rhythm that works for you with gentle reminders and progress you can actually see.</p><a href="#signup" aria-label="Learn more about calm productivity tools">Learn more <span aria-hidden="true">↗</span></a></article>
+				</div>
+			</div>
+		</section>
+
+		<section class="cta-band" id="signup">
+			<div class="container cta-inner"><div><p class="eyebrow">Your next best day starts here</p><h2>Ready to get organized?</h2></div><a class="button button-light" href="mailto:hello@flowtask.example">Sign Up Now <span aria-hidden="true">↗</span></a></div>
+		</section>
+	</main>
+
+	<footer class="site-footer" id="contact">
+		<div class="container footer-inner"><a class="logo" href="#home"><span class="logo-mark" aria-hidden="true">✦</span>FlowTask</a><p>© 2024 FlowTask. All rights reserved.</p><div class="social-links"><a href="#contact" aria-label="FlowTask on LinkedIn">in</a><a href="#contact" aria-label="FlowTask on Twitter">𝕏</a><a href="#contact" aria-label="FlowTask on Instagram">◎</a></div></div>
+	</footer>
+</body>
+</html>
